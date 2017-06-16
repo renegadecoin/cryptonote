@@ -1,3 +1,25 @@
+RenegadeCoin is a new altcoin steming from the CryptoNote Protocal. It is currently in Alpha stage and is in need of an awesome team to finish. It will include a few features that have not been seen from any other altcoin or token before. Such features will be listed here as we get closer to our beta release. In the meantime,visit our website, join our community, and mine happy!
+
+Currently in need of nodes; must input into config.
+
+3. Seed nodes (src/CryptoNoteConfig.h)
+
+Add IP addresses of your seed nodes.
+
+Example:
+
+const std::initializer_list<const char*> SEED_NODES = {
+  "111.11.11.11:17236",
+  "222.22.22.22:17236",
+};
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------
 This is the reference code for [CryptoNote](https://cryptonote.org) cryptocurrency protocol.
 
 * Launch your own CryptoNote currency: [CryptoNote Starter](https://cryptonotestarter.org/)
